@@ -1,0 +1,125 @@
+/*
+*{
+	padding: 0px;
+	margin: 0px;
+}
+*/
+
+/* Add a dark background color do menu */ 
+/*
+.navbar {
+    margin-bottom: 0px;
+    
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    
+}
+*/
+
+/* Add a gray color para  links 
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white 
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link 
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button 
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+		/* Dropdown 
+.open .dropdown-toggle {
+    color: green ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links 
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red 
+.dropdown-menu li a:hover {
+    background-color: #555 !important;
+}	
+
+/*---jumbotron--*/
+.jumbotron{
+    /*background: linear-gradient(132deg, #2e8e0b, #0a80bf);*/
+     background: linear-gradient(132deg, green, #0c91cf); 
+}
+/* about container
+.form-control{
+/*    margin-right: 5%;
+    width: 40%;
+}
+
+p.estilo{
+	margin-left: 10px;
+	font-size: 18px;
+	padding: 5%;
+}
+
+/* about footer
+.site-footer{
+	background: #000;
+	color:#fff;
+	margin-top: 40px;
+	padding-top: 50px;
+}
+p#assin{
+	margin-left: 45%;
+}
+.bottom-footer{
+	border-top: 1px solid #b2b2b2;
+	margin-top: 10px;
+	padding-top: 10px;
+	color: #b2b2b2;
+
+}
+.footer-nav{
+	list-style: none;
+	text-align: center;
+	
+
+}
+#menufoot{
+	padding-left: 20%;
+}
+.footer-nav li {
+	display: inline;
+	
+			
+}
+.footer-nav li:not(:first-child):before{
+	content: '|'
+}
+.footer-nav li a{
+
+    padding-right: 10px;
+	color: #b2b2b2;
+}
+
+.footer-nav li a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+#email{
+	color: #b2b2b2;
+}
+#email:hover{
+	color: #fff;
+	text-decoration: none;	
+}
+

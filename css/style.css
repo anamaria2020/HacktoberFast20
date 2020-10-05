@@ -1,0 +1,55 @@
+html,
+		body {
+			height: 100%;
+		}
+		.jumbotron {
+			margin-top: 30px;
+		}
+		#content,
+		.sidebar {
+			min-height: 650px;
+		}
+		#row-main {
+			overflow-x: hidden; /* necessary to hide collapsed sidebars */
+		}
+		#content {
+/*			background-color: lightyellow;*/
+			
+			-webkit-transition: width 0.3s ease;
+			-moz-transition: width 0.3s ease;
+			-o-transition: width 0.3s ease;
+			transition: width 0.3s ease;
+		}
+		#content .btn-group {
+			margin-bottom: 10px;
+		}
+		.col-md-6 .width-9,
+		.col-md-6 .width-12,
+		.col-md-9 .width-6,
+		.col-md-9 .width-12,
+		.col-md-12 .width-6,
+		.col-md-12 .width-9 {
+			display: none; /* just hiding labels for demo purposes */
+		}
+		.sidebar {
+/*			background-color: lightgrey;*/
+			
+			-webkit-transition: margin 0.3s ease;
+			-moz-transition: margin 0.3s ease;
+			-o-transition: margin 0.3s ease;
+			transition: margin 0.3s ease;
+		}
+		.collapsed {
+			display: none; /* hide it for small displays */
+		}
+		@media (min-width: 992px) {
+			.collapsed {
+				display: block;
+			}
+			#sidebar-left.collapsed {
+				margin-left: -25%; /* same width as sidebar */
+			}
+			#sidebar-right.collapsed {
+				margin-right: -25%; /* same width as sidebar */
+			}
+		}
